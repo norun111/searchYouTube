@@ -1,0 +1,22 @@
+%body
+  = render 'layouts/header'
+  %section
+    .container
+      .container-nest
+        %button.btn.red#authorize-button
+          Log in
+        %button.btn.red#signout-button
+          Log Out
+        %br/
+        #content
+          .row
+            .col.s6
+              %form#channel-form
+                .input-field.col.s6
+                  %input#channel-input{:placeholder => "Enter Channel Name", :type => "text"}
+                  %input.btn.grey.lighten-2#submits__btn{:type => "submit", :value => "Get Channel Data"}
+            .col.s6#channel-data
+          .row#video-container
+  %script{:src => "/assets/main.js", :type => "text/javascript"}
+
+%script{:onload => "this.onload=function(){};handleClientLoad()", :onreadystatechange => "if (this.readyState === 'complete') this.onload()", :src => "https://apis.google.com/js/api.js"}

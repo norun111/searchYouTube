@@ -1,0 +1,4 @@
+%header.navbar.navbar-fixed-top.navbar-inverse{ class: "#{'static_header' if  @path.is('static_pages#home')}" }
+  .head-container
+    = link_to root_path, id: "static_header" do
+      =icon('fab', 'youtube')

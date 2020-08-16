@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-x{
+  height: 1400px;
+  position: relative;
+  // background-color: rgb(249, 249, 249);
+}
+// .center__message{
+//   background-color: rgb(249, 249, 249);
+//   height: 330px;
+//   display: flex;
+//   justify-content: space-around;
+//   text-align: center;
+//   width: 100%;
+//   font-size: 20px;
+//   color: rgb(40, 40, 40);
+//   padding: 0 40px;
+  
+//   &-css{
+//     line-height: 330px;
+//     font-size: 60px;
+//     font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+//     letter-spacing: 2px;
+//     cursor: default;
+//     .font_test{
+//       color: rgb(234, 51, 35);
+//     }
+//     .nl-Hero_start{
+//       height: 250px;
+//       line-height: 330px;
+//       p{
+//         height: 10px;
+//       }
+//     }
+//   }
+.staticpages_wrapper{
+  border-top: solid 1px rgb(230, 232, 233);
+  
+}
+.nl-Hero{
+  // background-color: rgb(249, 249, 249);
+  padding: 72px 32px 32px;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  &_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    // margin: 0 auto;
+    margin: 0 0 0 170px;
+    .nl-Hero_start{
+      width: 100%;
+      h1{
+        cursor: default;
+        margin-bottom: 12px;
+        font-size: 60px;
+        font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+        letter-spacing: 2px;
+        cursor: default;
+      }
+      p{
+        cursor: default;
+        font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+      }
+      .font_test{
+        color: rgb(234, 51, 35);
+      }
+    }
+  }
+}
+  .sign-up{
+    font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+    margin-top: 70px;
+    font-size: 40px;
+    margin-right: 50px;
+    &__link{
+      
+      .btn-lg{
+        font-size: 25px;
+        display: block;
+        background-color: rgb(187, 38, 26);
+        color: rgb(248, 235, 234);
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        width: 250px;
+      }
+      .btn-primary{
+        border: none;
+        margin-top: 30px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  
+  .video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+  }
+  .video-foreground,
+  .video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  #vidtop-content {
+    top: 0;
+    color: #fff;
+  }
+  .vid-info { position: absolute; top: 70px; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+  .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+  .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+  @media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+  }
+  @media all and (max-width: 600px) {
+  .vid-info { width: 50%; padding: .5rem; }
+  .vid-info h1 { margin-bottom: .2rem; }
+  }
+  @media all and (max-width: 500px) {
+  .vid-info .acronym { display: none; }
+  }

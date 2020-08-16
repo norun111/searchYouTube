@@ -1,0 +1,218 @@
+// header
+header{
+  
+}
+.navbar{
+  width: 100%;
+}
+.navbar-left{
+  float: left;
+  display:flex;
+  align-items: center;
+  height: 70px;
+  margin-left: 40px;
+
+  .job__btn{
+    a{
+    }
+  }
+}
+.navbar-right{
+  float: right;
+  font-size: 25px;
+  margin-right: 40px;
+  height: 70px;
+  display:flex;
+  align-items: center;
+  .userform{
+    font-size: 12px;
+    background-color: rgb(244, 244, 244);
+    color: rgb(248, 235, 234);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    opacity: 0.94;
+  }
+  #youtuber{
+    margin-right: 50px;
+    padding: 10px 20px;
+  }
+  
+  #subscriber{
+
+  }
+  .userform:hover{
+    opacity: 1;
+  }
+}
+.header__name{
+
+}
+.violet__header{
+  height: 15px;
+  width: 100%;
+  background-color: #3700B3;
+}
+.navbar-fixed-top{
+  background-color: #6200EE;
+  height: 60px;
+  .head-container{
+    position: relative;
+    
+    #logo{
+      color: rgb(244, 244, 244);
+      text-decoration: none;
+      line-height: 45px;
+      text-align: center;
+      font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      
+    }
+  }
+}
+.static_header{
+  background: rgba(45,45,45, 0.5);
+  height: 50px;
+  #static_header{
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .navbar-right{
+    float: right;
+    font-size: 25px;
+    margin-right: 40px;
+    font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    .userform{
+      font-size: 12px;
+      background-color: rgb(244, 244, 244);
+      color: rgb(51, 51, 51);
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 3px;
+      opacity: 0.94;
+    }
+    #youtuber{
+      margin-right: 50px;
+      padding: 10px 20px;
+    }
+    
+    #subscriber{
+  
+    }
+    .userform:hover{
+      opacity: 1;
+    }
+    .dropbtn {
+      background-color: rgb(244, 244, 244);
+      color: rgb(51, 51, 51);
+      // padding: 16px;
+      font-size: 12px;
+      border: none;
+      cursor: pointer;
+      border:none;
+      border-radius: 3px;
+      padding: 11px 15px;
+      font-family: -apple-system,Segoe UI,Helvetica Neue,Hiragino Kaku Gothic ProN,"メイリオ",meiryo,sans-serif;
+    }
+  }
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: rgb(244, 244, 244);
+  color: rgb(248, 235, 234);
+  padding: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border:none;
+  border-radius: 3px;
+  padding: 10.4px 18px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  opacity: 0.94;  
+  border-radius: 5px;
+    i{
+      cursor: pointer;
+    }
+}
+.dropdown:hover{
+  opacity: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  // padding: 10px 1px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(187, 38, 26);
+}
+
+.hoge{
+  display: none;
+} 
+.label{
+  cursor: pointer;
+  font-size:1.5em;
+}
+.youtuber_profileimage img{
+  line-height: 70px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.navbar{
+  background-color: rgb(168, 168, 168);
+}
